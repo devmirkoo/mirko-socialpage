@@ -1,5 +1,6 @@
 "use client"
 
+import nextConfig from '../../next.config.mjs'
 import { links, LinkData } from '../../content/linkData';
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
@@ -27,7 +28,7 @@ export default function LinkedTree() {
       >
         <div className="w-40 h-40 rounded-full overflow-hidden mb-4 bg-white p-1">
           <Image
-            src="/me.png"
+            src={`${nextConfig.basePath}/me.png`}
             alt="Profile"
             width={160}
             height={160}
