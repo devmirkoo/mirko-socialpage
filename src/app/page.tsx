@@ -4,7 +4,7 @@ import nextConfig from '../../next.config.mjs'
 import { links, LinkData } from '../../content/linkData';
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { FaDiscord, FaGithub, FaTwitter, FaWeebly } from 'react-icons/fa';
+import { FaDiscord, FaGithub, FaTwitter, FaWeebly, FaSpotify } from 'react-icons/fa';
 import { MdMenuBook } from 'react-icons/md';
 import Image from 'next/image';
 
@@ -14,6 +14,7 @@ const iconMap = {
   "Twitter": FaTwitter,
   "Portfolio": FaWeebly,
   "Blog": MdMenuBook,
+  "Spotify": FaSpotify,
 }
 
 export default function LinkedTree() {
