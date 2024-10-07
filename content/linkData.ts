@@ -29,5 +29,10 @@ export interface LinkData {
       name: "Blog",
       url: "https://mirko.live/blog",
       description: "Read my latest articles"
+    },
+    {
+      name: "Playlist",
+      url: "https://open.spotify.com/playlist/6HfPa5MkbdNzhHjFnszRqz?si=fXzaoIwmRKumBe2oQo8isQ&pi=e-O_MGB99zSt6I",
+      description: "Listen my personal playlist on Spotify"
     }
   ];
