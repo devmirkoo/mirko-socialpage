@@ -14,7 +14,7 @@ const iconMap = {
   "Twitter": FaTwitter,
   "Portfolio": FaWeebly,
   "Blog": MdMenuBook,
-  "Spotify": FaSpotify,
+  "Playlist": FaSpotify,
 }
 
 export default function LinkedTree() {
