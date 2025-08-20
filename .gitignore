@@ -1,21 +1,22 @@
 
-# Ignore everything by default
+# Ignora tutto
 *
 
-# But do NOT ignore these folders/files for GitHub Pages deployment
+# Includi solo la build statica e i file necessari per GitHub Pages
 !out/
 !out/**
 !CNAME
+!README.md
 !robots.txt
 !sitemap.xml
 
-# Ignore node_modules, build, and config files
+# Ignora node_modules, build e file temporanei
 node_modules/
 .next/
 .DS_Store
 .env*
 
-# Ignore source code and config
+# Ignora codice sorgente e configurazioni
 src/
 content/
 public/
@@ -28,7 +29,6 @@ postcss.config.mjs
 package.json
 package-lock.json
 yarn.lock
-README.md
 
-# Ignore test and temp files
+# Ignora test e file temporanei
 testsprite_tests/
