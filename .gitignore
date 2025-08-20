@@ -2,6 +2,7 @@
 
 # Ignora tutto
 *
+.eslintrc.json
 
 # Includi solo la build statica, i workflow e il README
 !out/
