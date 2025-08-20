@@ -17,7 +17,7 @@ export interface LinkData {
     },
     {
       name: "Discord",
-      url: "#",
+      url: "https://discord.gg/your-server-invite",
       description: "Join in my Discord Server"
     },
     {
