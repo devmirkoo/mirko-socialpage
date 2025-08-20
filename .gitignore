@@ -1,34 +1,11 @@
 
+
 # Ignora tutto
 *
 
-# Includi solo la build statica e i file necessari per GitHub Pages
+# Includi solo la build statica, i workflow e il README
 !out/
 !out/**
-!CNAME
+!.github/
+!.github/**
 !README.md
-!robots.txt
-!sitemap.xml
-
-# Ignora node_modules, build e file temporanei
-node_modules/
-.next/
-.DS_Store
-.env*
-
-# Ignora codice sorgente e configurazioni
-src/
-content/
-public/
-components.json
-next-env.d.ts
-next.config.mjs
-tailwind.config.ts
-tsconfig.json
-postcss.config.mjs
-package.json
-package-lock.json
-yarn.lock
-
-# Ignora test e file temporanei
-testsprite_tests/
